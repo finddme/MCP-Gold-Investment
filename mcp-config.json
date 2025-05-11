@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+      "gold_price": {
+        "command": "./.venv/bin/python",
+        "args": ["./mcpserver-goldprice.py"],
+        "env": {}
+      },
+      "ledger": {
+        "command": "./.venv/bin/python",
+        "args": ["./mcpserver-ledger.py"],
+        "env": {}
+      },
+      "profit_calc": {
+        "command": "./.venv/bin/python",
+        "args": ["./mcpserver-profitcalc.py"],
+        "env": {}
+      }
+    }
+  }
