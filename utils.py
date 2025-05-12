@@ -1,3 +1,6 @@
+# 아래 링크의 코드를 참고하였습니다.
+# https://github.com/teddynote-lab/langgraph-react-mcp-chat
+
 from typing import Any, Dict, List, Callable, Optional
 from langchain_core.messages import BaseMessage
 from langchain_core.runnables import RunnableConfig
