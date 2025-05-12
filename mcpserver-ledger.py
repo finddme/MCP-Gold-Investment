@@ -177,7 +177,7 @@ async def get_transactions(
     except Exception as e:
         return {
                 "status": "error",
-                "message": f"거래 내역 조회 중 오류 발생: {str(e)}"
+                "message": f"Error get_transactions: {str(e)}"
                 }
 
 @mcp.tool()
@@ -251,7 +251,7 @@ async def update_transaction(
     except Exception as e:
         return {
                 "status": "error",
-                "message": f"거래 수정 중 오류 발생: {str(e)}"
+                "message": f"Error update_transaction: {str(e)}"
                 }
 
 @mcp.tool()
@@ -288,7 +288,7 @@ async def delete_transaction(transaction_id):
     except Exception as e:
         return {
                 "status": "error",
-                "message": f"거래 삭제 중 오류 발생: {str(e)}"
+                "message": f"Error delete_transaction: {str(e)}"
                 }
 
 @mcp.tool()
